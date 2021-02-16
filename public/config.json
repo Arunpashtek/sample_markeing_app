@@ -59,7 +59,7 @@
 	"editable": true,
   "outcomes": [
     {
-      "key": "c70c1a3b-853a-4e1f-8577-4d23d904f0d9",
+      "key": "f65c5cf7-afb2-4df4-9987-00a785a418a2",
       "next": "WAITBYDURATION-1",
       "arguments": {},
       "metaData": {
