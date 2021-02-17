@@ -24,7 +24,7 @@ connection.on('initActivity', function(data) {
 	
 });
 
-function click()
+function callme()
 {
 s= document.getElementById("names").value;
 document.getElementById('mytext').value= s;
