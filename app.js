@@ -5,7 +5,7 @@ var port = process.env.PORT || 8080;
 app.use(express.static('public'));
 
 
-/*app.post('/journeybuilder/save/', function (req, res) {
+app.post('/journeybuilder/save/', function (req, res) {
   
     res.send(200, 'Save');  
 });
@@ -43,7 +43,7 @@ app.post('/journeybuilder/execute/', function (req, res) {
                    console.log(body);
                }
            
-           }); 
+           }); */
 
            
             res.send(200, 'Execute');
@@ -53,5 +53,5 @@ app.post('/journeybuilder/execute/', function (req, res) {
         }
     });
 }
- );*/
+ );
 app.listen(port);
